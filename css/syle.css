@@ -1,0 +1,96 @@
+body{
+   background-color:#2B2B34  ;
+   margin: 0;
+   padding: 0;               
+}
+.circle{
+   height: 100px;
+   background-color:#fff;
+   width: 100px;
+   left:0;
+   right: 0;
+   bottom:100px;
+   position:absolute;
+   transform-origin: 50% 0 ;
+   transform: rotateZ(45deg);
+   border-radius:100% 0 0 0;
+   margin:auto;
+}
+.div1{
+                    height: 300px;
+                    width: 300px;
+  bottom: -80px;
+left: -71px;
+  margin:auto;
+  right: 0; 
+  border-radius:50%;
+  position: absolute;
+  border: 50px solid transparent;
+  border-top: 50px solid #d5d5d5;
+  animation:abror2 5s infinite reverse;
+
+}
+@keyframes abror{
+ 19%{
+                     border-top-color: #6B6872;
+ }
+ 20%{
+                    border-top-color: #31313A;
+}
+100%{
+                    border-top-color: #2B2B34 ;
+}
+}
+.div2{
+                    height: 550px;
+                    width: 550px;
+                    bottom: -211px;
+left: -78px;
+                    margin:auto;
+                    right: 0; 
+                    border-radius:50%;
+                    position: absolute;
+                    border: 70px solid transparent;
+                    border-top: 70px solid #d5d5d5;
+                    animation:abror1 5s infinite reverse;
+          
+                                   
+}
+@keyframes abror1{
+                   
+                     39%{
+                                         border-top-color: #6B6872;
+                     }
+                     40%{
+                                        border-top-color: #31313A;
+                    }
+                    100%{
+                                        border-top-color: #2B2B34 ;
+                    }               
+}
+.div3{
+                    height: 800px;
+                    width: 800px;
+                    bottom: -314px;
+                    left: -79px;
+                    margin:auto;
+                    right: 0; 
+                    border-radius:50%;
+                    position: absolute;
+                    border: 70px solid transparent;
+                    border-top: 70px solid #d5d5d5;
+                    animation:abror 5s infinite reverse;
+                    
+                                          
+}
+@keyframes abror2{
+                   
+                    59%{
+                                        border-top-color: #6B6872;
+                    }
+                    60%{
+                                       border-top-color: #31313A;
+                   }
+                   100%{
+                                       border-top-color: #2B2B34 ;
+                   }   }
